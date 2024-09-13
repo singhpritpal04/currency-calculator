@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body {
+     /* Prevents the image from repeating */
+  }
+:root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 4rem;
+    background-image: url('/home/user/currency-calculator/src/assets/currencyphoto.jpg');
+    background-size: cover; /* Adjusts the image size to cover the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+}
+
